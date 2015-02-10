@@ -160,3 +160,12 @@ footer
 .link-no-style {
 	color: inherit;
 }
+
+.collapsible-body p {
+	margin: 0;
+	padding: 1.5rem;
+}
+
+.portfolio {
+	margin-top: 50px;
+}
