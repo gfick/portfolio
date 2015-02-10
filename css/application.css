@@ -29,7 +29,7 @@ body, html
   text-align: center;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .header-row h5 {
@@ -37,7 +37,7 @@ body, html
 }
 
 .about {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .about h6 {
@@ -74,5 +74,5 @@ body, html
 }
 
 .portfolio {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
