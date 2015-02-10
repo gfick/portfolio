@@ -1,4 +1,3 @@
-// Smooth srolling animation on click of a tags with ID href reference.
 $(document).ready(function(){
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
@@ -14,8 +13,12 @@ $(document).ready(function(){
   });
 });
 
-// Konami code activation
-$( window ).konami();
-$( window ).on('konami', function() {
-  $(".fa").addClass("fa-spin");
+$(document).ready(function(){
+  $('#about-me-btn').on('click',function (e) {
+      e.preventDefault();
+      setTimeout(function () {
+         $("#working-knowledge").trigger("click");
+      }, 700);
+      
+  });
 });
