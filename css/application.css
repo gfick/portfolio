@@ -36,6 +36,10 @@ body, html
  text-transform: uppercase; 
 }
 
+.about {
+  margin-bottom: 80px;
+}
+
 .about h6 {
   text-transform: uppercase;
   padding: 10px;
@@ -67,4 +71,8 @@ body, html
 
 .collapsible-body p {
   padding: 1em;
+}
+
+.portfolio {
+  margin-bottom: 80px;
 }
