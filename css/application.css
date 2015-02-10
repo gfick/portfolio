@@ -1,0 +1,70 @@
+body, html
+{
+  background-color: #EDEDED !important;
+}
+
+.welcome
+{
+  text-align: center;
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
+
+.welcome h1
+{
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.welcome h5
+{
+  text-transform: uppercase;
+  padding: 10px;
+  color: #333333;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.header-row {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 50px;
+}
+
+.header-row h5 {
+ text-transform: uppercase; 
+}
+
+.about h6 {
+  text-transform: uppercase;
+  padding: 10px;
+  color: #333333;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.about hr {
+  width: 15%;
+  margin-bottom: 25px;
+}
+
+.about a {
+  text-transform: uppercase;
+}
+
+.about img {
+  margin-bottom: 20px;
+}
+
+.card a {
+  margin-right: 0px;
+}
+
+.icon-link {
+  padding-right: 25px;
+}
+
+.collapsible-body p {
+  padding: 1em;
+}
