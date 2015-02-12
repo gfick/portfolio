@@ -14,6 +14,7 @@ body, html
 {
   font-weight: 900;
   text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .welcome h5
@@ -27,17 +28,19 @@ body, html
 
 .header-row {
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
+}
+
+.header-row.about-me {
+  margin-bottom: 90px;
+}
+
+.header-row.portfolio-header {
+  margin-top: 100px;
 }
 
 .header-row h5 {
  text-transform: uppercase; 
-}
-
-.about {
-  margin-bottom: 70px;
 }
 
 .about h6 {
@@ -74,9 +77,25 @@ body, html
 }
 
 .portfolio {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 footer.page-footer {
   padding-top: 0px;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: ##ff7043 !important;
+}
+
+.row {
+  margin-bottom: 0px !important;
+}
+
+.card {
+  margin-bottom: 20px !important;
+}
+
+footer.page-footer {
+  margin-top: 0px !important;
 }
