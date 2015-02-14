@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
 
@@ -11,18 +12,12 @@ $(document).ready(function(){
           window.location.hash = target;
       });
   });
-});
 
-$(document).ready(function(){
   $('#about-me-btn').on('click',function (e) {
-      e.preventDefault();
-      setTimeout(function () {
-         $("#working-knowledge").trigger("click");
-      }, 700);
-      
+    e.preventDefault();
+    setTimeout(function () {
+       $("#working-knowledge").trigger("click");
+    }, 700);    
   });
-});
 
-// $( document ).ready(function() {
-//     $("#working-knowledge").trigger("click");
-// });
+});
