@@ -13,7 +13,7 @@ $(document).ready(function(){
       });
   });
 
-  $('#about-me-btn').on('click',function (e) {
+  $('#js-about-me-btn').on('click',function (e) {
     e.preventDefault();
     setTimeout(function () {
        $("#working-knowledge").trigger("click");
