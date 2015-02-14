@@ -26,87 +26,26 @@ body, html
   font-size: 1.2em;
 }
 
-.header-row {
-  text-align: center;
-  margin-bottom: 100px;
-}
-
-.header-row.about-me {
-  margin-bottom: 90px;
-}
-
-.header-row.portfolio-header {
-  margin-top: 100px;
-}
-
-.header-row h5 {
- text-transform: uppercase; 
-}
-
-.about h6 {
-  text-transform: uppercase;
-  padding: 10px;
-  color: #333333;
-  display: inline-block;
-  font-size: 1.2em;
-}
-
-.about hr {
-  margin-bottom: 25px;
-}
-
-.about a {
-  text-transform: uppercase;
-}
-
-.about img {
-  margin-bottom: 20px;
-}
-
 .card a {
   margin-right: 0px;
-}
-
-.icon-link {
-  padding-right: 25px;
-}
-
-.collapsible-body p {
-  padding: 1em;
-}
-
-.portfolio {
-  margin-bottom: 80px;
-}
-
-footer.page-footer {
-  padding-top: 0px;
-}
-
-footer.page-footer .footer-copyright {
-  /*background-color:#ff7043 !important;*/
-}
-
-.row {
-  margin-bottom: 0px !important;
-}
-
-.card {
-  margin-bottom: 20px !important;
-}
-
-footer.page-footer {
-  margin-top: 0px !important;
-}
-
-.lowercase {
-  text-transform: lowercase !important;
 }
 
 .uppercase {
   text-transform: uppercase !important;
 }
 
-.hr1 {
-  margin-bottom: 25px;
+.lowercase {
+  text-transform: lowercase !important;
+}
+
+.icon-link {
+  padding-right: 20px;
+}
+
+.label-row {
+  margin-top: 80px;
+}
+
+.final-row {
+  margin-bottom: 70px;
 }
