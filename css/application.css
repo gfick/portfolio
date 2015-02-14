@@ -52,7 +52,6 @@ body, html
 }
 
 .about hr {
-  width: 15%;
   margin-bottom: 25px;
 }
 
@@ -98,4 +97,16 @@ footer.page-footer .footer-copyright {
 
 footer.page-footer {
   margin-top: 0px !important;
+}
+
+.lowercase {
+  text-transform: lowercase !important;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.hr1 {
+  margin-bottom: 25px;
 }
