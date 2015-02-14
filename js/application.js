@@ -12,12 +12,13 @@ $(document).ready(function(){
           window.location.hash = target;
       });
   });
+});
 
+$(document).ready(function(){
   $('#js-about-me-btn').on('click',function (e) {
     e.preventDefault();
     setTimeout(function () {
        $("#working-knowledge").trigger("click");
     }, 700);    
   });
-
 });
