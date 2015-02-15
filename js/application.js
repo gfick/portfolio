@@ -9,16 +9,11 @@ $(document).ready(function(){
       $('html, body').stop().animate({
           'scrollTop': $target.offset().top
       }, 900, 'swing', function () {
-          window.location.hash = target;
+          document.getElementById("about-me").scrollIntoView(true);
       });
   });
 });
 
 $(document).ready(function(){
-  $('#js-about-me-btn').on('click',function (e) {
-    e.preventDefault();
-    setTimeout(function () {
-       $("#working-knowledge").trigger("click");
-    }, 700);    
-  });
+  $("#working-knowledge").trigger("click");
 });

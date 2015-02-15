@@ -52,10 +52,10 @@ body, html
 }
 
 #welcome-fade {
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
 }
 
 @keyframes fadein {
@@ -92,4 +92,25 @@ body, html
     to {
         opacity: 1;
     }
+}
+
+footer.page-footer {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.skills-heading {
+   padding: 2px 0px 2px 10px;
+}
+
+.skills-heading h5 {
+  font-size: 18px;
+}
+
+.skills-container p {
+  padding: 0px 10px 0px 10px;
+}
+
+.special {
+  padding-bottom: 15px !important;
 }
