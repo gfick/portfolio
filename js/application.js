@@ -13,7 +13,3 @@ $(document).ready(function(){
       });
   });
 });
-
-$(document).ready(function(){
-  $("#working-knowledge").trigger("click");
-});
