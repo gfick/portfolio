@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gfick/portfolio",
   "dependencies": {
+    "express": "^4.11.2",
     "forever": "^0.14.1"
   }
 }
