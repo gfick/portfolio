@@ -15,6 +15,16 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
+// Handle 404
+app.use(function(req, res) {
+     res.render('error404', 400);
+  });
+  
+// Handle 500
+app.use(function(error, req, res, next) {
+   res.send('500: Internal Server Error', 500);
+});
+
 app.listen(app.get('port'), function(req, res) {
  console.log('Server listening at ' + app.get('port'));
 });

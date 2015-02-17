@@ -40,7 +40,10 @@ body, html
 }
 
 .portfolio-container {
-  /*padding: 15px;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .portfolio-img {
@@ -70,4 +73,8 @@ body, html
   padding: 10px 10px 10px 10px;
   width: 100%;
   margin-bottom: 50px;
+}
+
+.error {
+  margin-top: 20%;
 }
