@@ -40,7 +40,11 @@ body, html
 }
 
 .portfolio-container {
-  padding: 15px;
+  /*padding: 15px;*/
+}
+
+.portfolio-img {
+  border: 5px white solid;
 }
 
 .lowercase {
@@ -66,9 +70,4 @@ body, html
   padding: 10px 10px 10px 10px;
   width: 100%;
   margin-bottom: 50px;
-}
-
-.portfolio-img {
-  border: 10px solid white;
-  height: 50px;
 }
