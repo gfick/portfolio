@@ -10,91 +10,97 @@
     <link rel="stylesheet" href="css/application2.css" type="text/css"/>
   </head>
 
-  <body>
+  <body class="">
 
-    <div class="container grey lighten-4 z-depth-1">
+    <div class="blue-grey darken-1 z-depth-1 welcome valign-wrapper">
+      <div id="welcome-fade" class="valign">
+        <h1 class="grey-text text-lighten-5">Greg Fick</h1>
+        <h5><a id="js-about-me-btn" class="blue darken-2 black-text waves-effect waves-light btn btn-large z-depth-2" href="#about-me">web developer</a></h5>
+      </div>
+    </div>
+
+    <div id="about-me" class="container label-row">
       <div class="row">
         <div class="col s12 m12 l12">
-          <div class="hero-container teal-text valign-wrapper">
-            <div class="valign center uppercase">
-              <h3 class="name-header">Greg Fick</h3>
-              <h5 class="light">Web Developer</h5>
-            </div>
-          </div>
+          <h5 class="uppercase">about</h5>
+          <hr>
         </div>
       </div>
+    </div>
+
+    <div class="container">
       <div class="row">
-        <div class="col s12 m12 l12">
-          <div class="about-container black-text center">
+        <div class="col s12 m12 l6">
+          <div class="black-text">
+            <p class="text-center"><img src="./assets/images/logo.png"></p>
             <p>Hello there!</p>
-            <br>
             <p>I'm a web developer focusing mainly on the front-end, but have been known to do back-end work from time to time. Currently located in Baltimore, Maryland.</p>
-            <br>
-            <p>Download my <a class="lowercase teal-text darken-4" href="./assets/documents/GregoryFickResume.docx">resume</a>.<p>
-            <br>
-            <a class="btn teal accent-4 black-text waves-effect waves-light z-depth-1" href="https://linkedin.com/pub/gregory-fick/36/257/ab5"><i class="fa fa-linkedin fa-2x"></i></a>
-            <a class="btn teal accent-4 black-text waves-effect waves-light z-depth-1" href="https://github.com/gfick"><i class="fa fa-github fa-2x"></i></a>
+            <p>Download my <a class="lowercase blue-text darken-2" href="./assets/documents/GregoryFickResume.docx">resume</a>.<p>
+          </div>
+          <div>
+            <a class="btn blue darken-2 black-text waves-effect waves-light z-depth-1" href="https://linkedin.com/pub/gregory-fick/36/257/ab5"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a class="btn blue darken-2 black-text waves-effect waves-light z-depth-1" href="https://github.com/gfick"><i class="fa fa-github fa-2x"></i></a>
           </div>
         </div>
-      </div>
-      <div class="row skills-row">
-        <div class="col s12 m12 l4">
-          <div class="skills-container">
-            <div class="center">
-              <i class="red-text small mdi-device-dvr"></i>
-              <p>Frontend Skills</p>
-              <p class="light">HTML, CSS, SCSS, JavaScript, CoffeeScript, jQuery, REST, AJAX, JSON</p>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m12 l4">
-          <div class="skills-container">
-            <div class="center">
-                <i class="green-text small mdi-maps-layers"></i>
-                <p>Backend Skills</p>
-                <p class="light">Ruby on Rails, Ruby</p>
-              </div>
-          </div>
-        </div>
-        <div class="col s12 m12 l4">
-          <div class="skills-container">
-            <div class="center">
-                <i class="blue-text small mdi-action-extension"></i>
-                <p>Other Skills</p>
-                <p class="light">Git, Perforce, Bootstrap 3, Materialize, Responsive Design, User Experience Design, Agile Software Development</p>
-              </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m12 l12 valign-wrapper">
-          <div class="section-header center valign">
-            <p class="uppercase">Latest Works</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m6 l6 portfolio-col">
-          <div class="portfolio-container">
-            <h6 class="img-text">Elder Scrolls Online - Community Site</h6>
-            <a href="http://www.elderscrollsonline.com"><img class="responsive-img" src="./assets/images/eso2.jpg"></a>
-          </div>
-        </div>
-        <div class="col s12 m6 l6 portfolio-col">
-          <div class="portfolio-container">
-            <h6 class="img-text">Elder Scrolls Online - Tumblr</h6>
-            <a href="http://theelderscrollsonline.tumblr.com"><img class="responsive-img" src="./assets/images/tumblr2.jpg"></a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12 m12 l12">
-          <div class="footer-container grey lighten-5">
-            &copy; 2015 Greg Fick, All rights reserved.
+        <div class="col s12 m12 l6">
+          <div class="blue-grey white-text z-depth-1 skills-container">
+            <div class="blue-grey darken-2 skills-heading"><h5><i class="fa fa-lg fa-laptop icon-link"></i>Working Knowledge</h5></div>
+            <p>- HTML, CSS, SCSS, JavaScript, jQuery</p>
+            <p>- Ruby on Rails, Ruby</p>
+            <p>- REST, AJAX, JSON</p>
+            <p>- Git, Perforce</p>
+            <p>- Bootstrap 3, Materialize, Responsive Design, User Experience Design</p>
+            <p>- Agile Software Development</p>
+            <div class="blue-grey darken-2 skills-heading"><h5><i class="fa fa-lg fa-puzzle-piece icon-link"></i>Basic Knowledge</h5></div>
+            <p class="special">- Node.js, npm, Gulp, PHP, SQL, XML</p>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="container label-row">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h5 class="uppercase">latest works</h5>
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row final-row">
+        <div class="col s12 m12 l6">
+          <div class="card medium">
+            <div class="card-image">
+              <a href="http://www.elderscrollsonline.com"><img src="./assets/images/eso2.jpg"></a>
+            </div>
+            <div class="card-content">
+              <p><a class="blue-text darken-2" href="http://www.elderscrollsonline.com">The Elder Scrolls Online - Official Community Site</a></p>
+              <p>PHP, HTML, CSS, SCSS, JavaScript, jQuery, Bootstrap 3</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l6">
+          <div class="card">
+            <div class="card-image medium">
+              <a href="http://theelderscrollsonline.tumblr.com"><img src="./assets/images/tumblr2.jpg"></a>
+            </div>
+            <div class="card-content">
+              <p class="teal-text"><a class="blue-text darken-2" href="http://theelderscrollsonline.tumblr.com">Elder Scrolls Online - Official Tumblr Site</a></p>
+              <p>HTML and CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer blue-grey darken-1">
+      <div class="footer-copyright">
+        <div class="container footer-copyright-text">
+        &copy; 2015 Greg Fick, All rights reserved.
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery JS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
