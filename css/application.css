@@ -69,5 +69,6 @@ body, html
 }
 
 .portfolio-img {
-  border: 10px solid white
+  border: 10px solid white;
+  height: 50px;
 }
