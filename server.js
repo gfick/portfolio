@@ -22,7 +22,7 @@ app.use(function(req, res) {
   
 // Handle 500
 app.use(function(error, req, res, next) {
-   res.send('500: Internal Server Error', 500);
+   res.send('error500', 500);
 });
 
 app.listen(app.get('port'), function(req, res) {
