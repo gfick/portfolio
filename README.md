@@ -1,7 +1,7 @@
 #Portfolio Website (gregfick.com)
 
 ##Powered By
-Node.js, Express, Forever, HTML, CSS, JavaScript, jQuery
+Node.js, Express, Forever, HTML, CSS, JavaScript, jQuery, Git
 
 ##Getting Started
 To run locally:
