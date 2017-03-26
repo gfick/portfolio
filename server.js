@@ -7,19 +7,25 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 3000);
-app.set('env', process.env.NODE_ENV || 'development'); 
+app.set('env', process.env.NODE_ENV || 'development');
 
 app.use(express.static(path.join(__dirname, 'assets')));
 
+// Index/home
 app.get('/', function(req, res) {
   res.render('index');
+});
+
+// PLU Mapper
+app.get('/plu-mapper', function(req, res) {
+  res.render('plu-mapper');
 });
 
 // Handle 404
 app.use(function(req, res) {
      res.render('error404', 400);
   });
-  
+
 // Handle 500
 app.use(function(error, req, res, next) {
    res.render('error500', 500);

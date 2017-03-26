@@ -1,9 +1,18 @@
 body,
-html { background-color: #EDEDED !important; }
+html {
+  background-color: #EDEDED !important; }
 
-.container { padding: 0px; }
+.container {
+  padding: 0px; }
 
-.row { margin-bottom: 0px; }
+.row {
+  margin-bottom: 0px; }
+
+nav {
+  background-color: #004d40; }
+  nav .nav-wrapper .logo {
+    font-size: 25px;
+    padding-left: 15px; }
 
 .hero-container {
   margin: 0 auto;
@@ -12,48 +21,53 @@ html { background-color: #EDEDED !important; }
   background-image: url(../images/forestStream.JPG);
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
+
+.hero-container div, .footer-container div {
+  margin: auto; }
 
 .about-container {
   padding: 65px 30px 50px 30px;
-  background-color: white;
-}
+  background-color: white; }
 
-.about-container p { margin: 0px !important; }
+.about-container p {
+  margin: 0px !important; }
 
-.skills-row { padding: 65px 30px 50px 30px; }
+.skills-row {
+  padding: 65px 30px 50px 30px; }
 
 .skills-container p {
   margin-top: 1em;
-  margin-bottom: 1em;
-}
+  margin-bottom: 1em; }
 
-.portfolio-container { padding: 5px 25px 5px 25px; }
+.portfolio-container {
+  padding: 5px 25px 5px 25px; }
 
-.portfolio-img { border: 5px white solid; }
+.portfolio-img {
+  border: 5px white solid; }
 
-.lowercase { text-transform: lowercase; }
+.lowercase {
+  text-transform: lowercase; }
 
-.uppercase { text-transform: uppercase; }
+.uppercase {
+  text-transform: uppercase; }
 
 .name-header {
   letter-spacing: 5px;
-  font-weight: 900;
-}
+  font-weight: 900; }
 
 .footer-container {
   padding: 10px;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .section-header {
   width: 100%;
   padding: 10px;
   margin-bottom: 50px;
-  background-color: white;
-}
+  background-color: white; }
 
-.card { margin: 40px !important; }
+.card {
+  margin: 40px !important; }
 
-.error { margin-top: 20%; }
+.error {
+  margin-top: 20%; }
