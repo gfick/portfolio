@@ -1,5 +1,5 @@
 body,
-html { background-color: #EDEDED !important; }
+html { background-image: url(../images/cubes.png); background-attachment: fixed; background-color: #757575; }
 
 .container { padding: 0px; }
 
@@ -58,7 +58,6 @@ nav {
 
 .footer-container {
   padding: 10px;
-  margin-top: 50px;
 }
 
 .section-header {
@@ -71,3 +70,11 @@ nav {
 .card { margin: 40px !important; }
 
 .error { margin-top: 20%; }
+
+.plu-mapper-container {
+  padding: 20px;
+}
+
+.latest-works-row {
+  margin-bottom: 50px;
+}
