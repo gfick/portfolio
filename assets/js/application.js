@@ -12,4 +12,7 @@ $(document).ready(function(){
           document.getElementById("about-me").scrollIntoView(true);
       });
   });
+
+
+
 });

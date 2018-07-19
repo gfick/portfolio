@@ -11,14 +11,16 @@ html {
   margin-bottom: 0px; }
 
 nav {
-  background-color: #004d40; }
+  background-color: #004d40;
+  height: 38px;
+  line-height: 38px;}
   nav .nav-wrapper .logo {
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 15px; }
 
 .hero-container {
   margin: 0 auto;
-  min-height: 500px;
+  min-height: 400px;
   max-height: 500px;
   background-image: url(../images/forestStream.JPG);
   background-position: 50%;
@@ -34,6 +36,10 @@ nav {
 
 .about-container p {
   margin: 0px !important; }
+
+p.emphasis {
+  font-weight: bold;
+}
 
 .skills-row {
   padding: 65px 30px 50px 30px; }
@@ -56,10 +62,11 @@ nav {
 
 .name-header {
   letter-spacing: 5px;
-  font-weight: 900; }
+  font-weight: 900;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.75), 1px 2px 1px rgba(0,0,0,0.5); }
 
 .footer-container {
-  font-size: 12px;
+  font-size: 10px;
   padding: 10px; }
 
 .section-header {
