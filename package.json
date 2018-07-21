@@ -19,6 +19,7 @@
   "dependencies": {
     "ejs": "^2.2.4",
     "express": "^4.11.2",
-    "forever": "^0.14.1"
+    "forever": "^0.15.3",
+    "node-sass": "^4.9.2"
   }
 }
