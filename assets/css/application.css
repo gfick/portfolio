@@ -1,0 +1,70 @@
+.emphasis {
+  font-weight: bold; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+body .plu-mapper-container, html .plu-mapper-container {
+  padding: 20px; }
+
+body .error, html .error {
+  margin-top: 20%; }
+
+body, html {
+  background-image: url(../images/cubes.png);
+  background-attachment: fixed;
+  background-color: #757575; }
+  body .container, html .container {
+    padding: 0px; }
+  body .row, html .row {
+    margin-bottom: 0px; }
+  body nav, html nav {
+    background-color: #004d40;
+    height: 38px;
+    line-height: 38px; }
+    body nav .nav-wrapper .logo, html nav .nav-wrapper .logo {
+      font-size: 15px;
+      padding-left: 15px; }
+  body .hero-container, html .hero-container {
+    margin: 0 auto;
+    min-height: 400px;
+    max-height: 500px;
+    background-image: url(../images/forestStream.JPG);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    body .hero-container div, html .hero-container div {
+      margin: auto; }
+    body .hero-container h3, html .hero-container h3 {
+      letter-spacing: 5px;
+      font-weight: 900;
+      text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.75), 1px 2px 1px rgba(0, 0, 0, 0.5); }
+  body .about-container, html .about-container {
+    padding: 65px 30px 50px 30px;
+    background-color: white; }
+    body .about-container p, html .about-container p {
+      margin: 0px !important; }
+  body .skills-row, html .skills-row {
+    padding: 65px 30px 50px 30px; }
+    body .skills-row .skills-container p, html .skills-row .skills-container p {
+      margin-top: 1em;
+      margin-bottom: 1em; }
+  body .portfolio-container, html .portfolio-container {
+    padding: 5px 25px 5px 25px; }
+  body .latest-works-row, html .latest-works-row {
+    margin-bottom: 50px; }
+    body .latest-works-row .card, html .latest-works-row .card {
+      margin: 40px !important; }
+  body .section-header, html .section-header {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: white; }
+  body .footer-container, html .footer-container {
+    font-size: 10px;
+    padding: 10px; }
+    body .footer-container div, html .footer-container div {
+      margin: auto; }

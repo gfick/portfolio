@@ -1,1 +1,93 @@
-@import "baseline"
+@import "baseline";
+@import "plu-mapper";
+@import "error";
+
+body, html {
+  background-image: url(../images/cubes.png);
+  background-attachment: fixed;
+  background-color: #757575;
+
+  .container {
+    padding: 0px;
+  }
+
+  .row {
+    margin-bottom: 0px;
+  }
+
+  nav {
+    background-color: #004d40;
+    height: 38px;
+    line-height: 38px;
+    .nav-wrapper {
+      .logo {
+        font-size: 15px;
+        padding-left: 15px;
+      }
+    }
+  }
+
+  .hero-container {
+    margin: 0 auto;
+    min-height: 400px;
+    max-height: 500px;
+    background-image: url(../images/forestStream.JPG);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   div {
+      margin: auto;
+    }
+    h3 {
+      letter-spacing: 5px;
+      font-weight: 900;
+      text-shadow: 0px 0px 1px rgba(0,0,0,0.75), 1px 2px 1px rgba(0,0,0,0.5);
+    }
+
+  }
+
+  .about-container {
+    padding: 65px 30px 50px 30px;
+    background-color: white;
+    p {
+      margin: 0px !important;
+    }
+  }
+
+  .skills-row {
+    padding: 65px 30px 50px 30px;
+    .skills-container {
+      p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  .portfolio-container {
+    padding: 5px 25px 5px 25px;
+  }
+
+  .latest-works-row {
+    margin-bottom: 50px;
+    .card {
+      margin: 40px !important;
+    }
+  }
+
+  .section-header {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: white;
+  }
+
+  .footer-container {
+    font-size: 10px;
+    padding: 10px;
+    div {
+      margin: auto;
+    }
+  }
+
+}
