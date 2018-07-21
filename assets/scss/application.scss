@@ -1,6 +1,8 @@
 @import "baseline";
 @import "plu-mapper";
 @import "error";
+@import "navbar";
+@import "footer";
 
 body, html {
   background-image: url(../images/cubes.png);
@@ -13,18 +15,6 @@ body, html {
 
   .row {
     margin-bottom: 0px;
-  }
-
-  nav {
-    background-color: #004d40;
-    height: 38px;
-    line-height: 38px;
-    .nav-wrapper {
-      .logo {
-        font-size: 15px;
-        padding-left: 15px;
-      }
-    }
   }
 
   .hero-container {
@@ -80,14 +70,6 @@ body, html {
     padding: 10px;
     margin-bottom: 50px;
     background-color: white;
-  }
-
-  .footer-container {
-    font-size: 10px;
-    padding: 10px;
-    div {
-      margin: auto;
-    }
   }
 
 }

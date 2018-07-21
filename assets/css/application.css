@@ -7,11 +7,24 @@
 .uppercase {
   text-transform: uppercase; }
 
-body .plu-mapper-container, html .plu-mapper-container {
+.shadow {
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.75), 1px 2px 1px rgba(0, 0, 0, 0.5); }
+
+body .plu-mapper-container, html.html-plu-mapper .plu-mapper-container {
   padding: 20px; }
 
-body .error, html .error {
+body .error, html.html-error .error {
   margin-top: 20%; }
+
+body nav, html nav {
+  background-color: #004d40;
+  height: 38px;
+  line-height: 38px; }
+
+body footer.page-footer, html footer.page-footer {
+  background-color: #004d40; }
+  body footer.page-footer .footer-copyright, html footer.page-footer .footer-copyright {
+    font-size: 10px; }
 
 body, html {
   background-image: url(../images/cubes.png);
@@ -21,13 +34,6 @@ body, html {
     padding: 0px; }
   body .row, html .row {
     margin-bottom: 0px; }
-  body nav, html nav {
-    background-color: #004d40;
-    height: 38px;
-    line-height: 38px; }
-    body nav .nav-wrapper .logo, html nav .nav-wrapper .logo {
-      font-size: 15px;
-      padding-left: 15px; }
   body .hero-container, html .hero-container {
     margin: 0 auto;
     min-height: 400px;
@@ -63,8 +69,3 @@ body, html {
     padding: 10px;
     margin-bottom: 50px;
     background-color: white; }
-  body .footer-container, html .footer-container {
-    font-size: 10px;
-    padding: 10px; }
-    body .footer-container div, html .footer-container div {
-      margin: auto; }
